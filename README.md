@@ -5,7 +5,7 @@
 1. Build docker image and run
 ```bash
 docker build ./ -t stockproject 
-docker run --rm -it stockproject 
+docker run -v $PWD:/usr/work -it --name stockproject stockproject sh
 ```
 
 
