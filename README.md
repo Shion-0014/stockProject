@@ -7,9 +7,9 @@
 cd src
 python stockprice_scraper.py
 ```
-\
 
-2. now you can run line bot  
+
+2. Now you can run line bot  
 ```bash
 python run.py
 ```
