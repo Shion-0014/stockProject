@@ -2,11 +2,11 @@
 
 ## References
 
-- 取り引きデータ
+- trade data  
 https://225labo.com/modules/download/
-- 取り引き日の考え方
+- definition of traiding day  
 https://www.jpx.co.jp/derivatives/rules/night-session/index.html
-- 移動平均の考え方
+- definition of RSI  
 https://faq.rakuten-sec.co.jp/faq_detail.html?id=1102025
 
 
