@@ -1,0 +1,25 @@
+### https://raw.github.com/github/gitignore/baf13553d070d1d85d6c873235eb529077c35aaf/Python.gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+# PyCharm
+.idea/
+
+# git
+.git/
+.gitignore
+
+# notebooks
+notebooks/
+ 
