@@ -42,6 +42,7 @@ if __name__ == '__main__':
 
         sma = comp_sma(data, num_data)
         rsi = comp_rsi(data, num_data)
+        print(sma, rsi)
 
         # Lineに通知
         if SMA_TH_LOW <= sma <= SMA_TH_HIGH and RSI_TH_LOW <= rsi <= RSI_TH_HIGG:
