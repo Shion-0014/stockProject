@@ -17,7 +17,7 @@ docker exec -i -t stockproject sh
 ```
 
 
-**2. First you have to scrape current stock price.*  *
+**2. First you have to scrape current stock price.**  
 ```bash
 cd src
 python stockprice_scraper.py
