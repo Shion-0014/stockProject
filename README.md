@@ -1,4 +1,4 @@
-# stockProject
+# StockProject
 
 ## How to run?
 
