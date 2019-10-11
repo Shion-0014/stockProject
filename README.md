@@ -4,7 +4,7 @@
 
 **1. Build docker image and run**
 
-The first time you clone files, run the command written below.
+The first time you clone files, move stockProject directory and run the command written below.
 ```bash
 docker build ./ -t stockproject 
 docker run -v $PWD:/usr/work -it --name stockproject stockproject sh
