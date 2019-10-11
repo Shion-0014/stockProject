@@ -1,6 +1,5 @@
 requests
 selenium
-jupyter
 numpy
 pandas
 matplotlib

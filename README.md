@@ -2,14 +2,21 @@
 
 ## How to run?
 
-1. First you have to scrape current stock price.  
+1. Build docker image and run
+```bash
+docker build ./ -t stockproject 
+docker run --rm -it stockproject 
+```
+
+
+2. First you have to scrape current stock price.  
 ```bash
 cd src
 python stockprice_scraper.py
 ```
 
 
-2. Now you can run line bot.  
+3. Now you can run line bot.  
 ```bash
 python run.py
 ```
