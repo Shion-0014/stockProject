@@ -15,9 +15,11 @@ if __name__ == '__main__':
     TIME_LEG = str(input())
 
     print('SMAの条件を指定してください.')
-    SMA_TH = int(input())
+    SMA_TH_LOW = int(input())
+    SMA_TH_HIGH = int(input())
     print('RSIの条件を指定してください.')
-    RSI_TH = int(input())
+    RSI_TH_LOW = int(input())
+    RSI_TH_HIGG = int(input())
 
     # linebotインスタンスを生成
     bot = LINENotifyBot(access_token=ACCESS_TOKEN)
@@ -42,7 +44,7 @@ if __name__ == '__main__':
         rsi = comp_rsi(data, num_data)
 
         # Lineに通知
-        if sma > SMA_TH and rsi > RSI_TH:
+        if sma >= SMA_TH_LOW and sma <= SMA_TH_HIGH and rsi >= RSI_TH_LOW and rsi <= RSI_TH_HIGG:
             bot.send(message='株価が条件値を満たしました')
 
-        sleep(10)
+        sleep(5)
