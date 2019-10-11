@@ -3,9 +3,17 @@
 ## How to run?
 
 1. Build docker image and run
+
+The first time you clone files, run the command written below.
 ```bash
 docker build ./ -t stockproject 
 docker run -v $PWD:/usr/work -it --name stockproject stockproject sh
+```
+
+From the second time, run the command written below.
+```bash
+docker start stockproject
+docker exec -i -t stockproject sh
 ```
 
 
