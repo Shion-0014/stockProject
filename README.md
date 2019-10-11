@@ -1,5 +1,20 @@
 # stockProject
 
+## How to run?
+
+1. First you have to scrape stock price now.  
+```bash
+cd src
+python stockprice_scraper.py
+```
+\
+
+2. now you can run line bot  
+```bash
+python run.py
+```
+
+
 ## References
 
 - trade data  
