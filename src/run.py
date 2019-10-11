@@ -44,7 +44,7 @@ if __name__ == '__main__':
         rsi = comp_rsi(data, num_data)
 
         # Lineに通知
-        if sma >= SMA_TH_LOW and sma <= SMA_TH_HIGH and rsi >= RSI_TH_LOW and rsi <= RSI_TH_HIGG:
+        if SMA_TH_LOW <= sma <= SMA_TH_HIGH and RSI_TH_LOW <= rsi <= RSI_TH_HIGG:
             bot.send(message='株価が条件値を満たしました')
 
         sleep(5)
