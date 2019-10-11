@@ -2,7 +2,7 @@
 
 ## How to run?
 
-1. Build docker image and run
+*1. Build docker image and run*
 
 The first time you clone files, run the command written below.
 ```bash
@@ -17,14 +17,14 @@ docker exec -i -t stockproject sh
 ```
 
 
-2. First you have to scrape current stock price.  
+*2. First you have to scrape current stock price.*  
 ```bash
 cd src
 python stockprice_scraper.py
 ```
 
 
-3. Now you can run line bot.  
+*3. Now you can run line bot.*  
 ```bash
 python run.py
 ```
