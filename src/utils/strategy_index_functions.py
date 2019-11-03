@@ -1,4 +1,3 @@
-
 def comp_sma(data, num_data):
     return data['終値'].tail(num_data).mean()
 
