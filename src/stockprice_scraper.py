@@ -10,10 +10,10 @@ import settings
 from utils.preprocessing import preprocessing
 
 # ブラウザのオプションを格納する変数。
-options = Options()
-# Headlessモードを有効にする（コメントアウトするとブラウザが実際に立ち上がる）
-options.set_headless(True)
-
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+driver = webdriver.Chrome(options=options)
 
 def get_stock_price(url):
     # ブラウザを起動する
