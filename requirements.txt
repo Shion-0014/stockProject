@@ -2,5 +2,4 @@ requests
 selenium
 numpy
 pandas
-matplotlib
 bs4
